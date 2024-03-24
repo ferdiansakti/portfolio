@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="shortcut icon" href="logo.ico">
+
+    <!-- Montserrat Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+
+    <!-- Leaflet CSS -->
+    <link href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Custom Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+  </head>
+  <body>
+    <div class="container-fluid px-0">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light shadow fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/" style="color: white; font-weight: bold;">
+            <span class="material-symbols-outlined">engineering</span>
+            Web Programming
+          </a>
+          <button
+            type="button"
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="container px-3">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link me-lg-3" href="/" style="color: white; font-weight: bold;">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link me-lg-3" href="#about" style="color: white; font-weight: bold;" >About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link me-lg-3" href="#experiences" style="color: white; font-weight: bold;" >Experiences</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link me-lg-3" href="#certification" style="color: white; font-weight: bold;" >Certification</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link me-lg-3" href="#wisdom" style="color: white; font-weight: bold;" >WoW</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- End Navbar -->
+
+      <!-- Hero -->
+      <header class="bg-light py-5">
+        <div class="container px-5">
+          <div class="row align-items-center">
+            <div class="col-lg-8 col-xl-7 col-xxl-6">
+              <div class="my-5">
+                <h2 class="text-center fw-bold mb-2">Hello My name is Ferdian,</h2>
+                <div class="badge bg-primary text-wrap">
+                  <h5>Network Architect and Infrastructure</h5>
+                </div>
+                <p class="justified-text fs-6">
+                  I'm very interested about networking, like MikroTik, Cisco, Juniper and other device. Now I'm learning about Web Development including from Frontend Development to the Backend Development, now I also learning about Cyber Security, and sometimes I play for CTF contest.
+                </p>
+                <div class="d-grid gap-3 d-sm-flex justify-content-center">
+                  <a class="btn btn-primary btn-large text-small" href="#contact" onclick="openWhatsapp()">
+                    WhatsApp
+                    <span class="material-symbols-outlined">sms</span>
+                  </a>
+                  <a class="btn btn-outline-primary btn-large text-small" href="#linkedin"  onclick="openLinkedin()">
+                    LinkedIn
+                    <span class="material-symbols-outlined">sensor_occupied</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-5 col-xl-5 justify-content-center">
+              <img class="img-fluid rounded-3 my-5" src="images/hero.jpg" alt="Hero Image">
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- End Hero -->
+
+      <main>
+        <!-- About -->
+        <section id="about" class="text-center py-5">
+          <div class="container py-5">
+            <div class="row justify-content-center">
+              <h2 class="fw-bold">About</h2>
+              <p class="lead text-muted mb-5">
+                What usually I'm doing?
+              </p>
+            </div>
+          </div>
+          <div class="container mb-5">
+            <div class="row">
+              <div class="col-lg-4 mx-auto mb-5">
+                <div class="d-flex mb-5 about">
+                  <span class="material-icons-outlined m-auto text-primary">face</span>
+                    </span>
+                </div>
+                <h5>Teaching</h5>
+                <p class="text-muted mb-0">
+                  Teaching and Mentoring my pupils in competition activity or self development
+                </p>
+              </div>
+              <div class="col-lg-4 mx-auto mb-5">
+                <div class="d-flex mb-5 about">
+                  <span class="material-icons-outlined m-auto text-primary">code</span>
+                </div>
+                <h5>Development</h5>
+                <p class="text-muted mb-0">
+                  I'm learning web development and actively participate in developer contests
+                </p>
+              </div>
+              <div class="col-lg-4 mx-auto mb-5">
+                <div class="d-flex mb-5 about">
+                  <span class="material-icons-outlined m-auto text-primary">network_check</span>
+                </div>
+                <h5>Networking</h5>
+                <p class="text-muted mb-0">
+                  I'm also manage a network infrastructure and several system like CBT and others 
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End About -->
+
+        <hr>
+
+        <!-- Experiences -->
+        <section id="experiences" class="text-center py-5">
+          <div class="container py-5">
+            <div class="row justify-content-center">
+              <h2 class="fw-bold">Experiences</h2>
+              <p class="lead text-muted mb-5">As far as what I've done</p>
+            </div>
+          </div>
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th scope="col">No</th>
+                <th scope="col">Work Experiences</th>
+                <th scope="col">Time</th>
+                <th scope="col">Institution</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Notebook Technican</td>
+                <td>Sept - Dec 2013</td>
+                <td>Laptop Center Jombang</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Network Architect and Infrastructure</td>
+                <td>Jan - July 2014</td>
+                <td>PT. Duta Cipta Pakar Perkasa (BJG)</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>IT Networking and Support</td>
+                <td>July 2016 - Now</td>
+                <td>SMK Dwija Bhakti 1 Jombang</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>Teacher</td>
+                <td>July 2018 - Now</td>
+                <td>SMK Dwija Bhakti 1 Jombang</td>
+              </tr>
+              <tr>
+                <th scope="row">5</th>
+                <td>Director</td>
+                <td>May 2021 - Now</td>
+                <td>CV. Jasaraya Dinamika</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+        <!-- End Experiences -->
+
+        <hr>
+
+        <!-- Certification -->
+        <section id="certification" class="text-center py-5">
+          <div class="container py-5">
+            <div class="row justify-content-center">
+              <h2 class="fw-bold">My Certification</h2>
+              <p class="lead text-muted mb-5">View some of my latest Certification</p>
+            </div>
+          </div>
+          <div class="container mb-5">
+            <div class="row">
+              <div class="col-lg-4 mx-auto mb-5">
+                <div class="card h-100 shadow-lg border-0 bg-light">
+                  <img class="card-img-top" src="images/cert1.jpg" alt="ACA Certification">
+                  <div class="card-body p-4">
+                    <h5 class="card-title mb-3">Alibaba Cloud Associate</h5>
+                    <p class="card-text">
+                      IACA03240200107990L
+                    </p>
+                    <p class="card-text">
+                      Learning about MaxCompute, DataWorks, QuickBI, E-MapReduce as well as other general big data technologies 
+                    </p>
+                  </div>
+                  <div class="card-footer bg-transparent mb-3">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 mx-auto mb-5">
+                <div class="card h-100 shadow-lg border-0 bg-light">
+                  <img class="card-img-top" src="images/cert2.jpg" alt="GCE Certification">
+                  <div class="card-body p-4">
+                    <h5 class="card-title mb-3">Google Certified Educator Lv. 2</h5>
+                    <p class="card-text">
+                      Google For Education
+                    </p>
+                    <p class="card-text">
+                      Learning about Google Products, such as Google Classroom, Meet, Sites, Forms, and other product to digitalizing lessons 
+                    </p>
+                  </div>
+                  <div class="card-footer bg-transparent mb-3">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 mx-auto mb-5">
+                <div class="card h-100 shadow-lg border-0 bg-light">
+                  <img class="card-img-top" src="images/cert3.jpg" alt="IPv6 Certification">
+                  <div class="card-body p-4">
+                    <h5 class="card-title mb-3">IPv6 HE Certification</h5>
+                    <p class="card-text">
+                      Sage Level
+                    </p>
+                    <p class="card-text">
+                      Learning about Tunneling, DNS, and basic knowledge about IPv6 usage at the server and end devices
+                    </p>
+                  </div>
+                  <div class="card-footer bg-transparent mb-3">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End Projects -->
+
+        <hr>
+
+        <!-- Word Of Wisdom -->
+        <section id="wisdom" class="text-center py-5">
+          <div class="container py-5">
+            <div class="row justify-content-center">
+              <h2 class="fw-bold">Wisdom</h2>
+              <p class="lead text-muted mb-5">
+              Several list Word of Wisdom
+              </p>
+              <p class="font-monospace">"Kerjakan, perintah yang pertama - Iqra!"</p>
+              <p class="font-monospace">"Kalau kuliah dapet ijazah, kalau belajar dapet ilmu"</p>
+              <p class="font-monospace">"Sebaik-baiknya manusia adalah yang bermanfaat bagi orang lain"</p>
+            </div>
+          </div>
+
+        </section>
+        <!-- End Wisdom -->
+      </main>
+    </div>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer class="text-center py-4">
+      <div class="container px-5 mb-2">Copyright &copy; 2024 Ferdian S</div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
